@@ -6,14 +6,14 @@ from pocket_coffea.lib.categorization import CartesianSelection, MultiCut
 from pocket_coffea.parameters import defaults
 import os
 
-from configs.jme.workflow import *
+from AnalysisConfigs.configs.jme.workflow import *
 
-from configs.jme.cuts import *
-from configs.jme.custom_functions import *
+from AnalysisConfigs.configs.jme.cuts import *
+from AnalysisConfigs.configs.jme.custom_functions import *
 
-from configs.jme.custom_cut_functions import *
-from configs.jme.params.binning import *
-from configs.jme.variables_def import get_variables_dict
+from AnalysisConfigs.configs.jme.custom_cut_functions import *
+from AnalysisConfigs.configs.jme.params.binning import *
+from AnalysisConfigs.configs.jme.variables_def import get_variables_dict
 
 
 localdir = os.path.dirname(os.path.abspath(__file__))
